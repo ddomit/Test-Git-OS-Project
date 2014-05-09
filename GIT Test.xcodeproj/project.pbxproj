@@ -22,6 +22,7 @@
 		FB10CAE3191C3AB100D30C0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB10CAE1191C3AB100D30C0C /* InfoPlist.strings */; };
 		FB10CAE5191C3AB100D30C0C /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10CAE4191C3AB100D30C0C /* GIT_TestTests.m */; };
 		FB10CAF3191C6EB500D30C0C /* DDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10CAF2191C6EB500D30C0C /* DDTest.m */; };
+		FB10CAF6191C701B00D30C0C /* DDGitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10CAF5191C701B00D30C0C /* DDGitTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		FB10CAE4191C3AB100D30C0C /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
 		FB10CAF1191C6EB500D30C0C /* DDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTest.h; path = ../DDTest.h; sourceTree = "<group>"; };
 		FB10CAF2191C6EB500D30C0C /* DDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTest.m; path = ../DDTest.m; sourceTree = "<group>"; };
+		FB10CAF4191C701B00D30C0C /* DDGitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGitTest.h; sourceTree = "<group>"; };
+		FB10CAF5191C701B00D30C0C /* DDGitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				FB10CACB191C3AB100D30C0C /* Main.storyboard */,
 				FB10CACE191C3AB100D30C0C /* DDViewController.h */,
 				FB10CACF191C3AB100D30C0C /* DDViewController.m */,
+				FB10CAF4191C701B00D30C0C /* DDGitTest.h */,
+				FB10CAF5191C701B00D30C0C /* DDGitTest.m */,
 				FB10CAD1191C3AB100D30C0C /* Images.xcassets */,
 				FB10CAC0191C3AB100D30C0C /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB10CAF6191C701B00D30C0C /* DDGitTest.m in Sources */,
 				FB10CACA191C3AB100D30C0C /* DDAppDelegate.m in Sources */,
 				FB10CAD0191C3AB100D30C0C /* DDViewController.m in Sources */,
 				FB10CAC6191C3AB100D30C0C /* main.m in Sources */,
