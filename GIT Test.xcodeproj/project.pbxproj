@@ -21,6 +21,7 @@
 		FB10CADB191C3AB100D30C0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB10CABD191C3AB100D30C0C /* UIKit.framework */; };
 		FB10CAE3191C3AB100D30C0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB10CAE1191C3AB100D30C0C /* InfoPlist.strings */; };
 		FB10CAE5191C3AB100D30C0C /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10CAE4191C3AB100D30C0C /* GIT_TestTests.m */; };
+		FB10CAF3191C6EB500D30C0C /* DDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FB10CAF2191C6EB500D30C0C /* DDTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FB10CAE0191C3AB100D30C0C /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		FB10CAE2191C3AB100D30C0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB10CAE4191C3AB100D30C0C /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		FB10CAF1191C6EB500D30C0C /* DDTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTest.h; sourceTree = "<group>"; };
+		FB10CAF2191C6EB500D30C0C /* DDTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		FB10CAAD191C3AB100D30C0C = {
 			isa = PBXGroup;
 			children = (
+				FB10CAF1191C6EB500D30C0C /* DDTest.h */,
+				FB10CAF2191C6EB500D30C0C /* DDTest.m */,
 				FB10CABF191C3AB100D30C0C /* GIT Test */,
 				FB10CADE191C3AB100D30C0C /* GIT TestTests */,
 				FB10CAB8191C3AB100D30C0C /* Frameworks */,
@@ -253,6 +258,7 @@
 				FB10CACA191C3AB100D30C0C /* DDAppDelegate.m in Sources */,
 				FB10CAD0191C3AB100D30C0C /* DDViewController.m in Sources */,
 				FB10CAC6191C3AB100D30C0C /* main.m in Sources */,
+				FB10CAF3191C6EB500D30C0C /* DDTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
